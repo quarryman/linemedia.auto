@@ -1,0 +1,5 @@
+<?
+$MESS['LM_AUTO_MAIN_PERSONAL_REQUEST_VIN_IBLOCK_NAME'] = "Запрос по VIN (инфоблок)";
+$MESS['LM_AUTO_MAIN_PERSONAL_REQUEST_VIN_IBLOCK_DESCRIPTION'] = "Запрос по VIN (инфоблок)";
+$MESS['LM_AUTO_MAIN_SECTION'] = "Linemedia Автоэксперт";
+$MESS['LM_AUTO_MAIN_VIN_SUB_SECTION'] = "Запрос по VIN";

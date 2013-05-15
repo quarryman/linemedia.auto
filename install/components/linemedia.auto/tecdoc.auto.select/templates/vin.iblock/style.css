@@ -1,0 +1,30 @@
+table.br_table tr td {
+	padding: 2px 10px 2px 0;
+	vertical-align: top;
+}
+
+.lm_loading {
+	width: 16px;
+	height: 11px;
+	background: url('images/loading.gif') no-repeat;
+	float: left;
+	padding-right: 10px;
+}
+
+table.auto-info-edit tr th {
+	text-align: right;
+}
+
+.auto-info-hide-tr {
+	display: none;
+}
+
+.hidden { display: none;}
+
+#br_table td {
+    width: 150px;
+}
+
+.bx-core-adm-dialog table { width:100%; }
+
+.bx-core-adm-dialog td { padding:5px 5px 0 0; }

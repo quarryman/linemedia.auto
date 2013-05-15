@@ -1,0 +1,137 @@
+.lm-auto-catalog-original.vin {
+background: rgb(238,238,238); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+
+padding: 10px 10px 10px 10px;
+border: 1px solid #dbdbdb;
+margin: 10px 0;    
+}
+
+.lm-auto-catalog-original.vin form { padding: 0!important; margin: 0!important;}
+.lm-auto-catalog-original.vin input { margin-bottom: 0!important;}
+
+.lm-auto-catalog-original.vin-table { margin: 10px 0;}
+
+.lm-auto-catalog-original-vin.decode,
+.lm-auto-catalog-original-vin.options { background: #fcfcfc; border: 1px solid #D9D9D9; padding: 10px; margin: 10px 0}
+
+.lm-auto-catalog-original .car_img { text-align: center; width: 100px;}
+
+.lm-auto-catalog-original-partinfo.usage {background: #fcfcfc; border: 1px solid #D9D9D9; padding: 10px; margin-top: 10px;}
+.lm-auto-catalog-original-partinfo.usage ul { margin-left: 18px; }
+.lm-auto-catalog-original-partinfo.usage ul li { margin-bottom: 7px; margin-left: 0;}
+
+.lm-auto-catalog-original-partinfo table.cross td { font-size: 0.9em; padding: 2px 5px; border: 1px solid #D9D9D9;}
+
+
+.lm-auto-catalog-original .lm-group th{ color: #000; font-weight: bold; padding-top: 7px; text-align: center; font-size: 16px;}
+
+
+.lm-auto-catalog-original a.lm-info {color: black}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Treeview */
+
+.treeview, .treeview ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+    line-height: 14px!important;
+}
+
+.treeview ul {
+	/*background-color: white;*/
+	margin-top: 4px;
+}
+
+.treeview .hitarea {
+	background: url(images/treeview.gif) -64px -25px no-repeat;
+	height: 16px;
+	width: 16px;
+	margin-left: -16px;
+	float: left;
+	cursor: pointer;
+}
+/* fix for IE6 */
+* html .hitarea {
+	display: inline;
+	float:none;
+}
+
+.treeview li { 
+    font-size: 13px!important;
+	margin: 0;
+	padding: 3px 0pt 3px 16px!important;
+}
+
+.treeview a.selected {
+	background-color: #eee;
+}
+
+#treecontrol { margin: 1em 0!important; display: none; }
+
+.treeview .hover { color: red; cursor: pointer; }
+
+.treeview li { background: url(images/treeview-black-line.gif) 0 0 no-repeat; }
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px!important; }
+
+.treeview .expandable-hitarea { background-position: -80px -3px!important; }
+
+.treeview li.last { background-position: 0 -1766px!important }
+.treeview li.lastCollapsable, .treeview li.lastExpandable { background-image: url(images/treeview.gif); }  
+.treeview li.lastCollapsable { background-position: 0 -111px!important }
+.treeview li.lastExpandable { background-position: -32px -67px!important }
+
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea { background-position: 0; }
+
+
+.treeview .placeholder {
+	background: url(images/ajax-loader.gif) 0 0 no-repeat;
+	height: 16px!important;
+	width: 16px!important;
+	display: block!important;
+}
+
+.treeview li::before { content: none!important}
+
+ul#navigation li:before{
+  content: '' !important;
+}
+ul#navigation li{
+  margin: 0 !important;
+  text-indent: 0 !important;
+}

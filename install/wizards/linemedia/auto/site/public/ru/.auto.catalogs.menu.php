@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+    Array(
+        "Общий каталог (все марки)", 
+        "/auto/tecdoc/", 
+        Array(), 
+        Array(), 
+        "" 
+    ),
+    Array(
+        "Opel", 
+        "/auto/tecdoc/84/", 
+        Array(), 
+        Array(), 
+        "" 
+    ),
+    Array(
+        "Chevrolet", 
+        "/auto/tecdoc/138/", 
+        Array(), 
+        Array(), 
+        "" 
+    ),
+    Array(
+        "Subaru", 
+        "/auto/tecdoc/107/", 
+        Array(), 
+        Array(), 
+        "" 
+    ),
+    Array(
+        "BMW", 
+        "/auto/tecdoc/16/", 
+        Array(), 
+        Array(), 
+        "" 
+    ),
+    Array(
+        "Honda", 
+        "/auto/tecdoc/45/", 
+        Array(), 
+        Array(), 
+        "" 
+    ),
+);
+?>

@@ -1,0 +1,7 @@
+div.color {
+    border: 1px #000000 dotted;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-bottom: -6px;
+}

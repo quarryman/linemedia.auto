@@ -1,0 +1,98 @@
+.lm-auto-icon-info {
+    background: url('images/info.png');
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+}
+.tecdoc_details_info{width:100%}
+.tecdoc_details_info th{border: 1px solid silver; padding: 3px 10px; background-color:#F2F2F2}
+.tecdoc_details_info td{border: 1px solid silver; padding: 3px 10px;}
+.tecdoc_details_info tr{border-bottom:1px solid #DDDDDD}
+.tecdoc_details_info tbody tr:hover{background-color:#DEDEDE}
+
+.applicability {
+    border-radius: 5px;
+    -moz-border-radius: 5px; 
+    
+background: rgb(249,249,249); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(249,249,249,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,249,249,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(249,249,249,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+
+padding: 20px;
+margin-right: 10px;
+}
+
+.applicability a {    
+    cursor: pointer;
+    display: inline-block; margin-right: 10px;
+    text-transform: lowercase;
+    text-decoration: underline;    
+    line-height: 22px;
+    
+}
+.applicability a:first-letter {
+
+    text-transform: uppercase;
+}
+
+.applicability .selected { color: #000;}
+
+.applicability-firms { padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1px dashed #d3d3d3;}
+
+.applicability .applicability-modifications-table {
+    margin-top: 10px;
+}
+
+.applicability .applicability-modifications-table {
+    border-collapse: collapse;
+    width: 95%;
+}
+
+.applicability .applicability-modifications-table td,
+.applicability .applicability-modifications-table th {
+    border: 1px solid silver;
+    font: 0.85em Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.applicability .applicability-modifications-table td {
+    padding: 3px 5px;
+}
+
+.applicability .applicability-modifications-table tr {
+    background: #FFFFFF;
+}
+
+.applicability .applicability-modifications-table tr:hover {
+    background: #DEDEDE;
+}
+
+.applicability .applicability-modifications-table-go a {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.applicability .applicability-modifications-table th {
+    white-space:nowrap;
+    font-weight: bold;
+    background: #F2F2F2;
+    padding: 6px 3px;
+}
+
+
+.lm_popup_img img { max-width: 95%; max-height: 300px; 
+margin: 15px 0;
+background-color: #ffffff;
+border: 6px solid #ffffff;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+-moz-box-shadow: 0px 0px 4px #6b6a6a;
+-webkit-box-shadow: 0px 0px 4px #6b6a6a;
+box-shadow: 0px 0px 4px #6b6a6a;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/}

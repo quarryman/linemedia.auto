@@ -1,0 +1,93 @@
+/*.bg_tile  {background:url('images/angar_sm.jpg') center top no-repeat;}
+body{background:url('images/bg_tile.jpg') center top repeat-y;}*/
+.bg_tile  {background:white; margin:auto; width:980px;}
+body{background:url('images/bg_new.jpg');}
+.navbar {margin-top:-2px;}
+
+.box {background-color: #EEE;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+padding: 10px;
+
+}
+
+
+
+.starrequired { color: red; font-size: 1.4em;}
+
+.row { margin-bottom: 10px}
+
+.search_form_center form { margin:0}
+
+.basket_small form { margin:0}
+
+.small_cart_ol { font-size:11px; margin: 0 0 7px 15px; }
+.small_cart_ol li{line-height: 13px}
+.small_cart_ol li .nums { color:#888; font-size:10px}
+.search_tbl { font-size: 11px}
+
+.filter_orders form { margin:0}
+.order_history { font-size:12px}
+
+.footer { background: #efefef; padding: 10px 0}
+
+.expandable span:hover { cursor:pointer; text-decoration:underline}
+
+.basket_small { background: url('images/shop_cart.png') no-repeat bottom right #EEE;
+box-shadow: inset 0 0px #000, 0 3px 3px rgba(34,25,25,0.4);
+-moz-box-shadow: inset 0 0px #000, 0 3px 3px rgba(34,25,25,0.4);
+-webkit-box-shadow: inset 0 0px #000, 0 3px 3px rgba(34,25,25,0.4);
+border:1px solid #ccc;
+}
+
+.search_box {box-shadow: inset 0 0px #000, 0 3px 3px rgba(34,25,25,0.4);
+-moz-box-shadow: inset 0 0px #000, 0 3px 3px rgba(34,25,25,0.4);
+-webkit-box-shadow: inset 0 0px #000, 0 3px 3px rgba(34,25,25,0.4);
+border:1px solid #ccc;}
+
+.search_box .box { background-color: #f2e9bf;
+background: -webkit-gradient(linear, left top, left bottom, from(#f7ecb7), to(#f9f0c5));
+background: -moz-linear-gradient(top, #f7ecb7, #f9f0c5);
+background: -o-linear-gradient(top, #f7ecb7, #f9f0c5);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7ecb7', endColorstr='#f9f0c5');
+
+}
+
+.order_history { font-size:11px}
+.errortext { color:red}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #333333;
+    font-weight: bold;
+    margin: 0;
+    text-rendering: optimizelegibility;
+}
+
+.h4, .h5, .h6 {
+line-height: 18px;
+}
+
+.h4 {
+font-size: 14px;
+}
+
+.h3 {font-size: 18px;
+    line-height: 27px;
+}
+
+.blog-post-title span, .blog-post-title a:link, .blog-post-title a:visited, .blog-post-title a:active {
+color: #08C!important}
+
+.show_price { font-weight:bold;}
+.a_title { font-size:11px; line-height: 10px; display:block;  font-weight:normal;}
+
+.car_logo { margin-bottom:-7px; margin-left:-28px }
+.car_select tr:hover,
+.car_select td:hover{ background:none!important}
+.car_select li{ margin-bottom:7px; margin-left: 28px}
+
+.car_logo_header {}
+.main_links span { text-decoration:underline}
+.main_links span:hover { text-decoration:none; font-weight:bold}
+.main_links ul { margin-bottom:5px; margin-top:5px}

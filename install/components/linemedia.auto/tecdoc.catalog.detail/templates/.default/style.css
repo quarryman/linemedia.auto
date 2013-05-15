@@ -1,0 +1,234 @@
+.tecDoc td {  
+  vertical-align:  top;
+}
+
+.tecDoc li {
+  margin-right:  20px;
+  min-width: 88px;
+}
+
+
+.treeview, .treeview ul { 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.treeview ul {
+    background-color: white;
+    margin-top: 4px;
+}
+
+.treeview .hitarea {
+    background: url(images/treeview.gif) -64px -25px no-repeat;
+    height: 16px;
+    width: 16px;
+    margin-left: -16px;
+    float: left;
+    cursor: pointer;
+}
+/* fix for IE6 */
+* html .hitarea {
+    display: inline;
+    float:none;
+}
+
+.treeview li { 
+    margin: 0;
+    padding: 3px 0pt 3px 16px;
+}
+
+.treeview a.selected {
+    background-color: #eee;
+}
+
+#treecontrol { margin: 1em 0; display: none; }
+
+.treeview .hover { color: red; cursor: pointer; }
+
+.treeview li { background: url(images/treeview-black-line.gif) 0 0 no-repeat; }
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px; }
+
+.treeview .expandable-hitarea { background-position: -80px -3px; }
+
+.treeview li.last { background-position: 0 -1766px }
+.treeview li.lastCollapsable, .treeview li.lastExpandable { background-image: url(images/treeview.gif); }  
+.treeview li.lastCollapsable { background-position: 0 -111px }
+.treeview li.lastExpandable { background-position: -32px -67px }
+
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea { background-position: 0; }
+
+
+.treeview .placeholder {
+    background: url(images/ajax-loader.gif) 0 0 no-repeat;
+    height: 16px;
+    width: 16px;
+    display: block;
+}
+
+ul#navigation li:before{
+  content: '' !important;
+}
+ul#navigation li{
+  margin: 0 !important;
+  text-indent: 0 !important;
+}
+
+
+
+/*************** Tecdoc ******************/
+.tecdoc td{ vertical-align: top; padding: 3px}
+.tecdoc ul { margin-right: 7px}
+.tecdoc h2.letter { margin: 5px 0}
+.tecdoc th { font-weight: normal; color: silver; border: 1px solid #D9D9D9;}
+.model_select  { width: 100%; border-collapse:collapse}
+/*.model_select a { display: block}*/
+.model_select td{ border: 1px solid #D9D9D9;}
+.tecdoc_details { border-collapse:collapse; } 
+.tecdoc_details td,
+.tecdoc_details th{ border: 1px solid silver; padding: 3px 10px}
+
+.openInfo .ui-icon { display: inline-block;}
+
+.hidden_auto_info{
+  width: 500px;
+  display: none;
+}
+
+.infoTd {
+  width: 40px;
+  text-align: center;
+}
+
+.icon-info {
+    background: url('images/info.png');
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.clear {
+    clear: both;
+}
+
+.applicability {
+    border-radius: 5px;
+    -moz-border-radius: 5px; 
+    
+background: rgb(249,249,249); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(249,249,249,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,249,249,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(249,249,249,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+
+padding: 20px;
+margin-right: 10px;
+}
+
+.applicability a {    
+    cursor: pointer;
+    display: inline-block; margin-right: 10px;
+    text-transform: lowercase;
+    text-decoration: underline;    
+    line-height: 22px;
+    
+}
+.applicability a:first-letter {
+
+    text-transform: uppercase;
+}
+
+.applicability .selected { color: #000;}
+
+.applicability-firms { padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1px dashed #d3d3d3;}
+
+.applicability .applicability-modifications-table {
+    margin-top: 10px;
+}
+
+.applicability .applicability-modifications-table {
+    border-collapse: collapse;
+    width: 95%;
+}
+
+.applicability .applicability-modifications-table td,
+.applicability .applicability-modifications-table th {
+    border: 1px solid silver;
+    font: 0.85em Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.applicability .applicability-modifications-table td {
+    padding: 3px 5px;
+}
+
+.applicability .applicability-modifications-table tr {
+    background: #FFFFFF;
+}
+
+.applicability .applicability-modifications-table tr:hover {
+    background: #DEDEDE;
+}
+
+.applicability .applicability-modifications-table-go a {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.applicability .applicability-modifications-table th {
+    white-space:nowrap;
+    font-weight: bold;
+    background: #F2F2F2;
+    padding: 6px 3px;
+}
+
+.lm-auto-main-tecdoc-backurl {
+    clear: both;
+    margin: 10px 0 0 0;
+}
+.silver_table{
+	border-collapse: separate; border-spacing: 0; border-radius:5px; border-right:1px solid #DCDFE2; border-top:1px solid #DCDFE2; border-left:none; border-bottom:none; margin-bottom:20px;
+}
+.silver_table thead tr th{
+	background: #ECEDEE;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#F7F7F8), to(#ECEDEE));
+	background: -webkit-linear-gradient(#F7F7F8, #ECEDEE);
+	background: -moz-linear-gradient(#F7F7F8, #ECEDEE);
+	background: -ms-linear-gradient(#F7F7F8, #ECEDEE);
+	background: -o-linear-gradient(#F7F7F8, #ECEDEE);
+	background: linear-gradient(#F7F7F8, #ECEDEE);
+	color:#7b7b7b;
+	text-align:left;
+}
+.silver_table thead tr th, .silver_table tbody tr td{
+	border-left:1px solid #DCDFE2; border-bottom:1px solid #DCDFE2; border-right:none; border-top:none;padding:9px 11px;
+}
+.silver_table tbody tr td{
+	background-color:#F7F8F9;
+}
+.silver_table tbody tr:hover td{
+	background-color:#ECEDEE !important;
+
+}
+.silver_table thead tr th:first-child {
+        -webkit-border-top-left-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        border-top-left-radius: 5px;
+    }
+.silver_table thead tr th:last-child {
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topright: 5px;
+        border-top-right-radius: 5px;
+    }
+.silver_table tbody tr:last-child td:first-child {
+        -webkit-border-bottom-left-radius: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        border-bottom-left-radius: 5px;
+    }
+.silver_table tbody tr:last-child td:last-child {
+        -webkit-border-bottom-right-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-bottom-right-radius: 5px;
+    }

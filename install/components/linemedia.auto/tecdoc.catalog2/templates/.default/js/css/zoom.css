@@ -1,0 +1,32 @@
+/* zoom any image */
+.zoom {display:inline-block;}
+#zoomLoading {position:absolute; display:block; width: 22px; height: 22px; background: url('zoom-load.gif') no-repeat; opacity:0.5; filter:alpha(opacity=50);}
+.zoomX {position:absolute; top:50px; left:50px; width:34px; height:34px; background-image:url(zoom-x.png); cursor:pointer; background-repeat:no-repeat; background-position:0 0;}
+* html .zoomX {background-image:url(zoom-x.gif);}
+.zoomX:hover {background-position:0 -34px;}
+.zoomPic {position:absolute; display:block; top:-9999px; left:0; cursor:pointer;}
+.zoomShadow {position:absolute; left:0; top:-9999px;}
+.zoomShadow table {width:auto; height:auto; border:0; border-collapse:collapse; border-spacing:0;}
+.zoomShadow td {margin:0; padding:0; border:0;}
+.zoomShadow b {display:block; width:10px; height:10px; overflow:hidden;}
+.zoomBase {position:relative; width:10px; height:10px; margin:0; padding:0; background:#000;}
+.zs1 {width:10px; height:10px; background:url(zoom-shadow.png) no-repeat 0 0;}
+* html .zs1 {background:url(zoom-shadow.gif) no-repeat 0 0;}
+.zs2 {width:10px; height:10px; background:url(zoom-shadow.png) no-repeat -10px 0;}
+* html .zs2 {background:url(zoom-shadow.gif) no-repeat -10px 0;}
+.zs3 {width:10px; height:10px; background:url(zoom-shadow.png) no-repeat 0 -10px;}
+* html .zs3 {background:url(zoom-shadow.gif) no-repeat 0 -10px;}
+.zs4 {width:10px; height:10px; background:url(zoom-shadow.png) no-repeat -10px -10px;}
+* html .zs4 {background:url(zoom-shadow.gif) no-repeat -10px -10px;}
+.zh1 {height:10px; background:url(zoom-shadow.png) repeat-x 0 -20px;}
+* html .zh1 {background:url(zoom-shadow.gif) repeat-x 0 -20px;}
+.zh2 {height:10px; background:url(zoom-shadow.png) repeat-x 0 -30px;}
+* html .zh2 {background:url(zoom-shadow.gif) repeat-x 0 -30px;}
+.zv1 {width:10px; background:url(zoom-shadow.png) repeat-y 0 -40px;}
+* html .zv1 {background:url(zoom-shadow.gif) repeat-y 0 -40px;}
+.zv2 {width:10px; background:url(zoom-shadow.png) repeat-y -10px -40px;}
+* html .zv2 {background:url(zoom-shadow.gif) repeat-y -10px -40px;}
+
+* html .selOff {visibility:hidden;}
+
+.bigGrey {position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:0.8; filter:alpha(opacity=80);}

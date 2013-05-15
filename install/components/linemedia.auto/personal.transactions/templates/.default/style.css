@@ -1,0 +1,193 @@
+#auto-select{
+	margin-top:20px;
+}
+.lm-auto-transactions tr:hover {
+    background: #e8f9f9;
+}
+
+.lm-auto-transactions p, .lm-auto-transactions a{
+	margin:0;
+	line-height:15px;
+}
+.lm-auto-transactions{
+	border-collapse: separate; border-spacing: 0; width: 100%; border-radius:5px; border-right:1px solid #DCDFE2; border-top:1px solid #DCDFE2; margin-top:20px;
+}
+
+.lm-auto-transactions thead tr th{
+	background-color: #ECEDEE;
+	/*background: -webkit-gradient(linear, 0 0, 0 bottom, from(#F7F7F8), to(#ECEDEE));
+	background: -webkit-linear-gradient(#F7F7F8, #ECEDEE);
+	background: -moz-linear-gradient(#F7F7F8, #ECEDEE);
+	background: -ms-linear-gradient(#F7F7F8, #ECEDEE);
+	background: -o-linear-gradient(#F7F7F8, #ECEDEE);
+	background: linear-gradient(#F7F7F8, #ECEDEE);*/
+	text-align:left;
+	color:#7b7b7b;
+}
+.lm-auto-transactions thead tr th, .lm-auto-transactions tbody tr td{
+	border-left:1px solid #DCDFE2; border-bottom:1px solid #DCDFE2;padding:9px 11px;
+}
+.lm-auto-transactions tbody tr td{
+	background-color: #F7F7F8;
+}
+.lm-auto-transactions thead tr th:first-child {
+        -webkit-border-top-left-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        border-top-left-radius: 5px;
+    }
+.lm-auto-transactions thead tr th:last-child {
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topright: 5px;
+        border-top-right-radius: 5px;
+    }
+.lm-auto-transactions tbody tr:last-child td:first-child {
+        -webkit-border-bottom-left-radius: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        border-bottom-left-radius: 5px;
+    }
+.lm-auto-transactions tbody tr:last-child td:last-child {
+        -webkit-border-bottom-right-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+.lm-auto-transactions thead tr th.header {
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+    background-image: url(images/bg.gif);
+}
+.lm-auto-transactions thead tr th.headerSortUp {
+    background-image: url(images/asc.gif);
+}
+.lm-auto-transactions thead tr th.headerSortDown {
+    background-image: url(images/desc.gif);
+}
+.transactions_filter {
+    border: 0;
+	margin:10px 0 20px;
+}
+.transactions_filter td{
+    padding-right: 35px;
+}
+.silver-block{
+	border: 1px solid #DCDFE2;
+	padding: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 0 0 1px #FFFFFF inset;
+	-moz-box-shadow: 0 0 0 1px #FFFFFF inset;
+	box-shadow: 0 0 0 1px #FFFFFF inset;
+	background: #FDFDFD;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FDFDFD), to(#F1F2F4));
+	background: -webkit-linear-gradient(#FDFDFD, #F1F2F4);
+	background: -moz-linear-gradient(#FDFDFD, #F1F2F4);
+	background: -ms-linear-gradient(#FDFDFD, #F1F2F4);
+	background: -o-linear-gradient(#FDFDFD, #F1F2F4);
+	background: linear-gradient(#FDFDFD, #F1F2F4);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FDFDFD', endColorstr='#F1F2F4', GradientType=0);
+}
+.silver-block button,
+.silver-block input,
+.silver-block select,
+.silver-block textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+.silver-block input,
+.silver-block textarea,
+.silver-block select{
+  display: inline-block;
+  width: 210px;
+  height: 18px;
+  padding: 4px;
+  margin-bottom: 0px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #555555;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.silver-block input, .silver-block textarea {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.silver-block input[type="button"], .silver-block input[type="reset"], .silver-block input[type="submit"] {
+    height: auto;
+    width: auto;
+}
+.silver-block button, .silver-block input[type="button"], .silver-block input[type="reset"], .silver-block input[type="submit"] {
+    cursor: pointer;
+}
+.silver-block .btn {
+  display: inline-block;
+  padding: 4px 10px 4px;
+  margin-bottom: 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(top, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  border: 1px solid #ccc;
+  border-bottom-color: #bbb;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  *margin-left: .3em;
+}
+.silver-block .btn:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #e6e6e6;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -ms-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+.silver-block .btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.silver-block .big-font-price{
+	font-size:18px;
+}
+.silver-block form{
+	margin:0
+}
+
+.silver-block label {
+    color: #333333;
+    display: block;
+    margin-bottom: 5px;
+}

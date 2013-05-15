@@ -1,0 +1,558 @@
+.tecDoc td {  
+  vertical-align:  top;
+}
+
+.tecDoc li {
+  margin-right:  20px;
+  min-width: 88px;
+}
+
+.lm-auto-image-edit {
+    margin: 3px 0 5px 0;
+}
+
+input[type="file"] {
+    height: 18px;
+}
+
+
+/*************** Tecdoc ******************/
+
+.tecdoc { width: 100%;}
+.tecdoc td, .tecdoc th{ vertical-align: top; padding: 3px; border: 1px solid #D9D9D9;}
+.tecdoc tr:nth-child(even){ background: #f7f7f7;}
+.tecdoc tr:nth-child(odd){ background: #fcfcfc;}
+.tecdoc tr:hover { background: #f5f5f5; }
+.tecdoc tr:hover td a { text-decoration: underline;}
+
+.tecdoc.brands { table-layout: fixed;}
+.tecdoc.brands tr { background: none!important;}
+.tecdoc.brands tr:hover {background: none!important; }
+.tecdoc.brands tr td a {text-decoration: none!important;}
+.tecdoc.brands tr:hover td a {text-decoration: none!important;}
+
+.tecdoc.brands ul { margin: 0; margin-right: 7px; list-style: none;}
+.tecdoc.brands li { margin: 7px 0 7px 5px;}
+.tecdoc.brands li a:hover { text-decoration: underline!important;}
+.tecdoc.brands h2.letter { margin: 7px 0 0 5px}
+.tecdoc.brands li::before {
+content:  none!important;
+}
+
+.tecdoc.models td { padding: 3px;}
+
+
+
+
+.tecdoc th { font-weight: normal; color: silver; border: 1px solid #D9D9D9;}
+.model_select  { width: 100%; border-collapse:collapse}
+/*.model_select a { display: block}*/
+.model_select td{ border: 1px solid #D9D9D9;}
+.tecdoc_details { border-collapse:collapse; } 
+.tecdoc_details td,
+.tecdoc_details th{ border: 1px solid silver; padding: 3px 10px}
+
+
+
+.openInfo .ui-icon { display: inline-block;}
+
+.hidden_auto_info{
+  width: 500px;
+  display: none;
+}
+
+.infoTd {
+  width: 40px;
+  text-align: center;
+}
+
+.icon-info {
+    background: url('images/info.png');
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+
+.tecdoc_modifications_main_img {  }
+.tecdoc_modifications_main_img a { margin-right: 10px;}
+.tecdoc_modifications_main_img img { height: 100px; width: auto;}
+
+.tecdoc-item-edit {margin: 0 5px 0 5px}
+
+.polaroid { background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;}
+
+
+
+/* Treeview */
+
+.treeview, .treeview ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+    line-height: 14px!important;
+}
+
+.treeview ul {
+	/*background-color: white;*/
+	margin-top: 4px;
+}
+
+.treeview .hitarea {
+	background: url(images/treeview.gif) -64px -25px no-repeat;
+	height: 16px;
+	width: 16px;
+	margin-left: -16px;
+	float: left;
+	cursor: pointer;
+}
+/* fix for IE6 */
+* html .hitarea {
+	display: inline;
+	float:none;
+}
+
+.treeview li { 
+    font-size: 13px!important;
+	margin: 0;
+	padding: 3px 0pt 3px 16px!important;
+}
+
+.treeview a.selected {
+	background-color: #eee;
+}
+
+#treecontrol { margin: 1em 0!important; display: none; }
+
+.treeview .hover { color: red; cursor: pointer; }
+
+.treeview li { background: url(images/treeview-black-line.gif) 0 0 no-repeat; }
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px!important; }
+
+.treeview .expandable-hitarea { background-position: -80px -3px!important; }
+
+.treeview li.last { background-position: 0 -1766px!important }
+.treeview li.lastCollapsable, .treeview li.lastExpandable { background-image: url(images/treeview.gif); }  
+.treeview li.lastCollapsable { background-position: 0 -111px!important }
+.treeview li.lastExpandable { background-position: -32px -67px!important }
+
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea { background-position: 0; }
+
+
+.treeview .placeholder {
+	background: url(images/ajax-loader.gif) 0 0 no-repeat;
+	height: 16px!important;
+	width: 16px!important;
+	display: block!important;
+}
+
+.treeview li::before { content: none!important}
+
+ul#navigation li:before{
+  content: '' !important;
+}
+ul#navigation li{
+  margin: 0 !important;
+  text-indent: 0 !important;
+}
+
+
+/* edit mode */
+#tecdoc-items-edit {border:1px dotted red}
+
+.lm-auto-popup-edit {padding: 3px}
+.lm-auto-popup-edit div {font-weight: bold}
+.lm-auto-popup-edit span {color: gray; padding-left: 10px; font-size: 10px}
+
+
+
+
+
+li.lm-auto-hidden a {color: gray}
+li.lm-auto-hidden div.car-logo {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+
+.tecdoc_year {
+	background: #ECEDEE;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#F7F7F8), to(#ECEDEE));
+	background: -webkit-linear-gradient(#F7F7F8, #ECEDEE);
+	background: -moz-linear-gradient(#F7F7F8, #ECEDEE);
+	background: -ms-linear-gradient(#F7F7F8, #ECEDEE);
+	background: -o-linear-gradient(#F7F7F8, #ECEDEE);
+	background: linear-gradient(#F7F7F8, #ECEDEE);
+	color:#7b7b7b; 
+	padding: 3px 8px 3px 8px; 
+	border-top:1px dashed #D9D9D9; 
+	border-right:1px solid #D9D9D9;
+	border-left:1px solid #D9D9D9;
+	border-bottom: 1px solid #D9D9D9;;
+	-webkit-border-bottom-left-radius: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-bottom-right-radius: 5px;
+	 padding: 10px 20px!important;
+	 margin-bottom:10px;
+}
+.tecdoc_year .left_side{
+	float:left;
+	line-height:21px;
+}
+.tecdoc_year label { display: inline-block;}
+.tecdoc_year #amount { display: inline-block;}
+.tecdoc_year .slider_placeholder { display: inline-block; width: 200px; margin-left: 15px; margin-right: 15px;}
+.tecdoc_year .ui-slider{ margin-top: 4px!important; margin-bottom: 4px!important; }
+
+.tecdoc_quick_search {
+	background: #ECEDEE;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#F7F7F8), to(#ECEDEE));
+	background: -webkit-linear-gradient(#F7F7F8, #ECEDEE);
+	background: -moz-linear-gradient(#F7F7F8, #ECEDEE);
+	background: -ms-linear-gradient(#F7F7F8, #ECEDEE);
+	background: -o-linear-gradient(#F7F7F8, #ECEDEE);
+	background: linear-gradient(#F7F7F8, #ECEDEE);
+	color:#7b7b7b; 
+	padding: 3px 8px 3px 8px; 
+	border-top:1px solid #D9D9D9; 
+	border-right:1px solid #D9D9D9;
+	border-left:1px solid #D9D9D9;
+	border-bottom: none;
+	-webkit-border-top-left-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topright: 5px;
+        border-top-right-radius: 5px;
+	padding:10px 20px;
+	}
+.tecdoc_quick_search span { font-size: 12px!important;  }
+.tecdoc_quick_search input { font-size: 12px!important; width: 150px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+   display: inline-block;
+  height: 18px;
+  padding: 4px;
+  margin: 0px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #555555;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.tecdoc.models .lm-auto-model-img { width: 190px; height: auto;} 
+.tecdoc.models .main_img_place{overflow:hidden; height:150px;}
+
+.tecdoc.models .m_select { font-weight: bold; }
+.tecdoc.models td { vertical-align: middle;}
+.tecdoc.models .model_card .years { padding: 0 2px!important; background-color: #9b9b9b; font-size: 11px; color: #fff; display: inline-block;}
+.tecdoc.models.list { vertical-align: top; }
+
+.UGLYtecdoc.models .model_card img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    -webkit-transition: all .2s ease; /* Fade to color for Chrome and Safari */
+    -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+    opacity:0.6;
+    filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.tecdoc.models .model_card:hover img  {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+    opacity:1.0;
+    filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.polaroid { 
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.polaroid:hover { 
+    border-color: #0088cc;
+	background-color:#F7F7F8;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+    -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+    box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+}
+
+.tecdoc.models.list .model_card{ display: inline-block; width: 190px; margin:10px; padding:10px; vertical-align: top;  -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;}
+
+.tecdoc.models.list .model_card .m_select { font-size: 12px; line-height: 13px; margin: 5px 0; display: inline-block;}
+
+.tecdoc.models.list .model_card .main_img_place {  }
+
+.silver_table_none_top{
+	
+}
+.silver_table_none_top{
+	border-collapse: separate; border-spacing: 0; width: 100%; border-radius:0 0 5px 5px ; border-right:1px solid #DCDFE2; border-top:1px solid #DCDFE2;  border-left:none; border-bottom:none; margin-bottom:20px;
+}
+.silver_table_none_top thead tr th{
+	background: #ECEDEE;
+	color:#7b7b7b;
+	text-align:center;
+	font-weight:bold;
+}
+.silver_table_none_top thead tr th, .silver_table_none_top tbody tr td{
+	border-left:1px solid #DCDFE2; border-bottom:1px solid #DCDFE2; border-right:none; border-top:none;padding:8px 3px;
+}
+.silver_table_none_top tbody tr td{
+	x-background-color:#F7F8F9;
+}
+.silver_table_none_top tbody tr:hover td{
+	background-color:#ECEDEE !important;
+	cursor:pointer;
+}
+.silver_table_none_top thead tr th:first-child {
+        -webkit-border-top-left-radius: 0px;
+        -moz-border-radius-topleft: 0px;
+        border-top-left-radius: 0px;
+    }
+.silver_table_none_top thead tr th:last-child {
+        -webkit-border-top-right-radius: 0px;
+        -moz-border-radius-topright: 0px;
+        border-top-right-radius: 0px;
+    }
+.silver_table_none_top tbody tr:last-child td:first-child {
+        -webkit-border-bottom-left-radius: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        border-bottom-left-radius: 5px;
+    }
+.silver_table_none_top tbody tr:last-child td:last-child {
+        -webkit-border-bottom-right-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+
+
+.car-logo {
+    background: url(images/logo.png) no-repeat top left;
+    background-position: -102px -17px;
+    
+    height: 16px;
+    width: 16px;
+    margin: 0 7px -3px 0;
+    float: left;
+}
+
+.selflogo{ background-position: 0px 0px;/* background-size:100%;*/ } 
+.nologo{ background-position: -102px -17px;  }
+
+.ac{ background-position: 0 0;  } 
+.acura{ background-position: -17px 0;  } 
+.aixam{ background-position: -34px 0;  } 
+.alfaromeo{ background-position: -51px 0;  } 
+.alpina{ background-position: -68px 0;  } 
+.alpine{ background-position: -85px 0;  } 
+.americanmotorsford{ background-position: -102px 0;  } 
+.aro{ background-position: -119px 0;  } 
+.artega{ background-position: -136px 0;  } 
+.asiamotors{ background-position: -153px 0;  } 
+.askamfargodesoto{ background-position: -170px 0;  } 
+.astonmartin{ background-position: -187px 0;  } 
+.astra{ background-position: -204px 0;  } 
+.audi{ background-position: -221px 0;  } 
+.austin-healey{ background-position: -238px 0;  } 
+.austin{ background-position: -255px 0;  } 
+.autounion{ background-position: -272px 0;  } 
+.autobianchi{ background-position: -289px 0;  } 
+.avia{ background-position: -306px 0;  } 
+.ayats{ background-position: -323px 0;  } 
+.barcas{ background-position: -340px 0;  } 
+.bedford{ background-position: -357px 0;  } 
+.bentley{ background-position: -374px 0;  } 
+.berkhof{ background-position: -391px 0;  } 
+.bertone{ background-position: -408px 0;  } 
+.bitter{ background-position: -425px 0;  } 
+.bmc{ background-position: -442px 0;  } 
+.bmw{ background-position: -459px 0;  } 
+.bond{ background-position: -476px 0;  } 
+.borgward{ background-position: -493px 0;  } 
+.bova{ background-position: -510px 0;  } 
+.bristol{ background-position: -527px 0;  } 
+.bugatti{ background-position: -544px 0;  } 
+.buick{ background-position: -561px 0;  } 
+.cadillac{ background-position: -578px 0;  } 
+.callaway{ background-position: -595px 0;  } 
+.carbodies{ background-position: -612px 0;  } 
+.caterham{ background-position: -629px 0;  } 
+.checker{ background-position: -646px 0;  } 
+.chevrolet{ background-position: -663px 0;  } 
+.chrysler{ background-position: -680px 0;  } 
+.citroen{ background-position: -697px 0;  } 
+.dacia{ background-position: -714px 0;  } 
+.daewoo{ background-position: -731px 0;  } 
+.daf{ background-position: -748px 0;  } 
+.daihatsu{ background-position: -765px 0;  } 
+.daimler{ background-position: -782px 0;  } 
+.dallas{ background-position: -799px 0;  } 
+.delorean{ background-position: -816px 0;  } 
+.detomaso{ background-position: -833px 0;  } 
+.deutz-fahr{ background-position: -850px 0;  } 
+.deutz{ background-position: -867px 0;  } 
+.dodge{ background-position: -884px 0;  } 
+.drogmoller{ background-position: -901px 0;  } 
+.erf{ background-position: -918px 0;  } 
+.fendt{ background-position: -935px 0;  } 
+.ferrari{ background-position: -952px 0;  } 
+.fiat{ background-position: -969px 0;  } 
+.fisker{ background-position: -986px 0;  } 
+.fodentrucks{ background-position: -1003px 0;  } 
+.ford-otosan{ background-position: -1020px 0;  } 
+.ford-usa{ background-position: -1037px 0;  } 
+.ford{ background-position: -1054px 0;  } 
+.fso{ background-position: -1071px 0;  } 
+.gaz{ background-position: -1088px 0;  } 
+.geely{ background-position: -1105px 0;  } 
+.geo{ background-position: -1122px 0;  } 
+.ginaf{ background-position: -1139px 0;  } 
+.ginetta{ background-position: -1156px 0;  } 
+.glas{ background-position: -1173px 0;  } 
+.gmc{ background-position: -1190px 0;  } 
+.greatwall{ background-position: -1207px 0;  } 
+.gruau{ background-position: -1224px 0;  } 
+.hindustan{ background-position: -1241px 0;  } 
+.hino{ background-position: -1258px 0;  } 
+.hobbycar{ background-position: -1275px 0;  } 
+.holden{ background-position: -1292px 0;  } 
+.honda{ background-position: -1309px 0;  } 
+.hyundai{ background-position: -1326px 0;  } 
+.indigo{ background-position: -1343px 0;  } 
+.infiniti{ background-position: -1360px 0;  } 
+.innocenti{ background-position: -1377px 0;  } 
+.irisbus{ background-position: -1394px 0;  } 
+.irizar{ background-position: -1411px 0;  } 
+.isdera{ background-position: -1428px 0;  } 
+.isuzu{ background-position: -1445px 0;  } 
+.iveco{ background-position: -1462px 0;  } 
+.jaguar{ background-position: -1479px 0;  } 
+.jeep{ background-position: -1496px 0;  } 
+.jensen{ background-position: -1513px 0;  } 
+.kamaz{ background-position: -1530px 0;  } 
+.kia{ background-position: -1547px 0;  } 
+.kramer{ background-position: -1564px 0;  } 
+.ktm{ background-position: -1581px 0;  } 
+.lada{ background-position: -1598px 0;  } 
+.lamborghini{ background-position: -1615px 0;  } 
+.lancia{ background-position: -1632px 0;  } 
+.landrover{ background-position: -1649px 0;  } 
+.landwindjmc{ background-position: -1666px 0;  } 
+.ldv{ background-position: -1683px 0;  } 
+.lexus{ background-position: -1700px 0;  } 
+.ligier{ background-position: -1717px 0;  } 
+.lincoln{ background-position: -1734px 0;  } 
+.lotus{ background-position: -1751px 0;  } 
+.lti{ background-position: -1768px 0;  } 
+.mahindra{ background-position: -1785px 0;  } 
+.man{ background-position: -1802px 0;  } 
+.marcos{ background-position: -1819px 0;  } 
+.maserati{ background-position: -1836px 0;  } 
+.maybach{ background-position: -1853px 0;  } 
+.maz{ background-position: -1870px 0;  } 
+.mazda{ background-position: -1887px 0;  } 
+.mclaren{ background-position: -1904px 0;  } 
+.mega{ background-position: -1921px 0;  } 
+.mercedes-benz{ background-position: -1938px 0;  } 
+.metrocab{ background-position: -1955px 0;  } 
+.mg{ background-position: -1972px 0;  } 
+.minelli{ background-position: -1989px 0;  } 
+.mini{ background-position: 0 -17px;  } 
+.mitsubishi{ background-position: -17px -17px;  } 
+.morgan{ background-position: -34px -17px;  } 
+.morris{ background-position: -51px -17px;  } 
+.moskvich{ background-position: -68px -17px;  } 
+.nissan{ background-position: -85px -17px;  } 
+.nsu{ background-position: -119px -17px;  } 
+.oldsmobile{ background-position: -136px -17px;  } 
+.oltcit{ background-position: -153px -17px;  } 
+.opel{ background-position: -170px -17px;  } 
+.optare{ background-position: -187px -17px;  } 
+.osca{ background-position: -204px -17px;  } 
+.panoz{ background-position: -221px -17px;  } 
+.panther{ background-position: -238px -17px;  } 
+.peugeot{ background-position: -255px -17px;  } 
+.piaggio{ background-position: -272px -17px;  } 
+.pininfarina{ background-position: -289px -17px;  } 
+.plaxton{ background-position: -306px -17px;  } 
+.plymouth{ background-position: -323px -17px;  } 
+.pontiac{ background-position: -340px -17px;  } 
+.porsche{ background-position: -357px -17px;  } 
+.premier{ background-position: -374px -17px;  } 
+.proton{ background-position: -391px -17px;  } 
+.puch{ background-position: -408px -17px;  } 
+.renault-trucks{ background-position: -425px -17px;  } 
+.renault{ background-position: -442px -17px;  } 
+.riley{ background-position: -459px -17px;  } 
+.rolls-royce{ background-position: -476px -17px;  } 
+.rover{ background-position: -493px -17px;  } 
+.saab{ background-position: -510px -17px;  } 
+.santana{ background-position: -527px -17px;  } 
+.scania{ background-position: -544px -17px;  } 
+.seat{ background-position: -561px -17px;  } 
+.setra{ background-position: -578px -17px;  } 
+.shelby{ background-position: -595px -17px;  } 
+.sipani{ background-position: -612px -17px;  } 
+.skoda{ background-position: -629px -17px;  } 
+.smart{ background-position: -646px -17px;  } 
+.solaris{ background-position: -663px -17px;  } 
+.spyker{ background-position: -680px -17px;  } 
+.ssangyong{ background-position: -697px -17px;  } 
+.stanguellini{ background-position: -714px -17px;  } 
+.steyr{ background-position: -731px -17px;  } 
+.subaru{ background-position: -748px -17px;  } 
+.suzuki{ background-position: -765px -17px;  } 
+.talbot{ background-position: -782px -17px;  } 
+.tata-telco{ background-position: -799px -17px;  } 
+.tazzari{ background-position: -816px -17px;  } 
+.temsa{ background-position: -833px -17px;  } 
+.terberg-benschop{ background-position: -850px -17px;  } 
+.tesla{ background-position: -867px -17px;  } 
+.toyota{ background-position: -884px -17px;  } 
+.trabant{ background-position: -901px -17px;  } 
+.triumph{ background-position: -918px -17px;  } 
+.tvr{ background-position: -935px -17px;  } 
+.uaz{ background-position: -952px -17px;  } 
+.umm{ background-position: -969px -17px;  } 
+.uralaz{ background-position: -986px -17px;  } 
+.van-hool{ background-position: -1003px -17px;  } 
+.vauxhall{ background-position: -1020px -17px;  } 
+.vector{ background-position: -1037px -17px;  } 
+.volvo{ background-position: -1054px -17px;  } 
+.vw{ background-position: -1071px -17px;  } 
+.westfield{ background-position: -1088px -17px;  } 
+.wiesmann{ background-position: -1105px -17px;  } 
+.wolseley{ background-position: -1122px -17px;  } 
+.yulon{ background-position: -1139px -17px;  } 
+.zastava{ background-position: -1156px -17px;  } 
+.zaz{ background-position: -1173px -17px;  } 
+
+

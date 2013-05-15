@@ -1,0 +1,6 @@
+Order Deny,Allow
+
+<Files supplierslist.php>
+    Order Allow,Deny
+    Allow from all
+</Files>

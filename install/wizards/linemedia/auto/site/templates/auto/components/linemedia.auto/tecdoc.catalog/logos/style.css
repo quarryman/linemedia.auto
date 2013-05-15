@@ -1,0 +1,114 @@
+.tecDoc td {  
+  vertical-align:  top;
+}
+
+.tecDoc li {
+  margin-right:  20px;
+  min-width: 88px;
+}
+
+
+.treeview, .treeview ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.treeview ul {
+	background-color: white;
+	margin-top: 4px;
+}
+
+.treeview .hitarea {
+	background: url(images/treeview.gif) -64px -25px no-repeat;
+	height: 16px;
+	width: 16px;
+	margin-left: -16px;
+	float: left;
+	cursor: pointer;
+}
+/* fix for IE6 */
+* html .hitarea {
+	display: inline;
+	float:none;
+}
+
+.treeview li { 
+	margin: 0;
+	padding: 3px 0pt 3px 16px;
+}
+
+.treeview a.selected {
+	background-color: #eee;
+}
+
+#treecontrol { margin: 1em 0; display: none; }
+
+.treeview .hover { color: red; cursor: pointer; }
+
+.treeview li { background: url(images/treeview-black-line.gif) 0 0 no-repeat; }
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px; }
+
+.treeview .expandable-hitarea { background-position: -80px -3px; }
+
+.treeview li.last { background-position: 0 -1766px }
+.treeview li.lastCollapsable, .treeview li.lastExpandable { background-image: url(images/treeview.gif); }  
+.treeview li.lastCollapsable { background-position: 0 -111px }
+.treeview li.lastExpandable { background-position: -32px -67px }
+
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea { background-position: 0; }
+
+
+.treeview .placeholder {
+	background: url(images/ajax-loader.gif) 0 0 no-repeat;
+	height: 16px;
+	width: 16px;
+	display: block;
+}
+
+ul#navigation li:before{
+  content: '' !important;
+}
+ul#navigation li{
+  margin: 0 !important;
+  text-indent: 0 !important;
+}
+
+
+
+/*************** Tecdoc ******************/
+.tecdoc td{ vertical-align: top; padding: 3px}
+.tecdoc ul { margin-right: 7px}
+.tecdoc h2.letter { margin: 5px 0}
+.tecdoc th { font-weight: normal; color: silver; border: 1px solid #D9D9D9;}
+.model_select  { width: 100%; border-collapse:collapse}
+/*.model_select a { display: block}*/
+.model_select td{ border: 1px solid #D9D9D9;}
+.tecdoc_details { border-collapse:collapse; } 
+.tecdoc_details td,
+.tecdoc_details th{ border: 1px solid silver; padding: 3px 10px}
+
+.openInfo .ui-icon { display: inline-block;}
+
+.hidden_auto_info{
+  width: 500px;
+  display: none;
+}
+
+.infoTd {
+  width: 40px;
+  text-align: center;
+}
+
+.icon-info {
+    background: url('images/info.png');
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.brand-logo {
+    height: 24px;
+    width: 24px;
+    margin-bottom: -6px;
+}

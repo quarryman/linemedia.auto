@@ -1,0 +1,60 @@
+/*Table*/
+table.sale_personal_order_list
+{
+	width:100%;
+	border-collapse:collapse;
+	font-size:12px;
+	border:1px solid #ADC3D5;
+}
+
+/*Table head*/
+table.sale_personal_order_list th
+{
+	text-align: left;
+	color:#25639A;
+}
+
+/* Table cells and heads*/
+table.sale_personal_order_list th, table.sale_personal_order_list td
+{
+	padding: 3px 5px;
+	vertical-align:top;
+}
+
+table.sale_personal_order_list_table
+{
+	width:100%;
+	font-size:12px;
+}
+.search_form_center { background: #DEDEDE; padding: 10px 20px; border: silver; margin-bottom: 20px}
+.search_form_header { font-weight: bold}
+
+.search_tbl,
+table.cart-items,
+#orders_table_id { border-collapse: collapse; font-family: Tahoma,Arial,Helvetica; font-size: 11px; width: 100% }
+
+.search_tbl th,
+#orders_table_id th { font-weight: normal; background: #DEDEDE; padding: 3px;border:1px solid silver;}
+.search_tbl td,
+#orders_table_id td{ text-align:left; padding: 2px 5px; border-top:1px solid silver;border-bottom:1px solid silver;border-left:1px solid #DEDEDE;border-right:1px solid #DEDEDE;}
+.search_tbl .quantity { width: 60px!important}
+
+.search_tbl .brand { width: 70px}
+.search_tbl .art { width: 70px}
+.search_tbl .exist { width: 30px}
+.search_tbl .delivery { width: 30px}
+.search_tbl .price { width: 50px}
+.search_tbl .update { width: 30px}
+.search_tbl .buy { width: 25px}
+.search_tbl .quantity { width: 50px}
+
+.last_viewed { background:#F0F0F0; padding: 10px; margin: 15px 0 }
+.count { width: 17px}
+div.filter_orders { font-size: 11px; background:#F0F0F0; padding: 1px 10px 10px 10px}
+div.filter_orders h4 { margin: 5px 0}
+div.filter_orders label { cursor: pointer}
+
+.trcol { cursor: pointer}
+
+.ui-dialog-content { font-size:12px!important}
+.ui-dialog-titlebar { background: #ccc!important}

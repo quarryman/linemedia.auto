@@ -1,0 +1,52 @@
+
+.lm-auto-vin {
+    overflow: hidden;
+}
+
+.lm-auto-vin .lm-auto-vin-table {
+    width: 100%;
+    background-color: #F9FAFB;
+    border-collapse: collapse;
+    border: 1px solid #ADC3D5;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 160%;
+    margin: 0 0 10px 0;
+}
+
+.lm-auto-vin .lm-auto-vin-table thead tr {
+    vertical-align: middle;
+}
+
+.lm-auto-vin .lm-auto-vin-table thead th {
+    border-bottom: 1px solid #adc3d5;
+    padding: 5px;
+    background-image: url('images/table_head.gif');
+    background-repeat: repeat-x;
+    text-align: left;
+    color: #25639a;
+}
+
+.lm-auto-vin .lm-auto-vin-table td {
+    padding: 5px;
+}
+
+.lm-auto-vin .lm-auto-vin-table .field-name {
+    text-align: right;
+}
+
+.lm-auto-vin .lm-auto-vin-table .value {
+    width: 65%;
+}
+/*
+.lm-auto-vin .lm-auto-vin-table input, .lm-auto-vin .lm-auto-vin-table textarea, .lm-auto-vin .lm-auto-vin-table select {
+    width: 90%;
+}
+*/
+.lm-auto-vin .starrequired {
+    color: #ff0000;
+}
+
+.lm-auto-vin .html {
+    border: 1px solid #f0f1f3;
+}

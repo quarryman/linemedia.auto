@@ -1,0 +1,92 @@
+/*.lm-auto-notepad {
+
+    text-align: center;
+
+    background-color:#f2fffe ;
+
+    border-collapse: collapse;
+
+    font-size: 13px;
+
+    width: 100%;
+
+    border: 1px solid #d1d1d1;
+
+    border-spacing: 0;
+
+}
+*/
+#auto-select{
+	margin-top:20px;
+}
+.lm-auto-notepad tr:hover {
+    background: #e8f9f9;
+}
+.lm-auto-notepad .save, .lm-auto-notepad .cancel, .notepad-hidden, .lm-auto-notepad .quantity-new, .lm-auto-notepad .comments-new {
+    display: none;
+}
+.lm-auto-notepad .comments-new {
+    width: 60px;
+	resize:none;
+}
+.lm-auto-notepad .quantity-new {
+    width: 20px;
+}
+
+.lm-auto-notepad .title-new, .lm-auto-notepad .brand-new, .lm-auto-notepad .article-new, .lm-auto-notepad .auto-new {
+    width: 60px;
+    display: none;
+}
+.lm-auto-notepad .add {
+    color: #506CBC;
+    cursor: pointer;
+}
+.lm-auto-notepad p, .lm-auto-notepad a{
+	margin:0;
+	line-height:15px;
+}
+.lm-auto-notepad{
+	border-collapse: separate; border-spacing: 0; width: 100%; border-radius:5px; border-right:1px solid #DCDFE2; border-top:1px solid #DCDFE2; margin-top:20px;
+}
+.lm-auto-notepad .save{
+	padding-bottom:8px;
+}
+.lm-auto-notepad .cancel, .lm-auto-notepad .change, .lm-auto-notepad .save{
+	cursor:pointer;
+}
+.lm-auto-notepad thead tr th{
+	background: #F7F7F8;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#F7F7F8), to(#ECEDEE));
+	background: -webkit-linear-gradient(#F7F7F8, #ECEDEE);
+	background: -moz-linear-gradient(#F7F7F8, #ECEDEE);
+	background: -ms-linear-gradient(#F7F7F8, #ECEDEE);
+	background: -o-linear-gradient(#F7F7F8, #ECEDEE);
+	background: linear-gradient(#F7F7F8, #ECEDEE);
+}
+.lm-auto-notepad thead tr th, .lm-auto-notepad tbody tr td{
+	border-left:1px solid #DCDFE2; border-bottom:1px solid #DCDFE2;padding:9px 11px;background-color:#F7F8F9;
+}
+.lm-auto-notepad thead tr th{
+	text-align:left;
+	color:#7b7b7b;
+}
+.lm-auto-notepad thead tr th:first-child {
+        -webkit-border-top-left-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        border-top-left-radius: 5px;
+    }
+.lm-auto-notepad thead tr th:last-child {
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topright: 5px;
+        border-top-right-radius: 5px;
+    }
+.lm-auto-notepad tbody tr:last-child td:first-child {
+        -webkit-border-bottom-left-radius: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        border-bottom-left-radius: 5px;
+    }
+.lm-auto-notepad tbody tr:last-child td:last-child {
+        -webkit-border-bottom-right-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-bottom-right-radius: 5px;
+    }
